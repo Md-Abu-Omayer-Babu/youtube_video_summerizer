@@ -5,6 +5,7 @@ from config import your_api_key
 import os
 import warnings
 
+
 # Configure Gemini API
 genai.configure(api_key=your_api_key)
 

@@ -58,6 +58,21 @@ python main.py
 - If no transcript is found, the script downloads and transcribes the video audio.
 - The summarized content is saved in `summary.txt`.
 
+## Requirements
+
+Ensure the following Python libraries are installed:
+
+- `yt-dlp` – To download YouTube videos and subtitles.
+- `openai-whisper` – For transcribing audio into text.
+- `google-generativeai` – To generate summaries.
+- `ffmpeg` – Required for `yt-dlp` to process media files.
+
+Install all dependencies using:
+
+```sh
+pip install -r requirements.txt
+```
+
 ## Dependencies
 
 - `yt-dlp` – Downloads YouTube audio and subtitles.
